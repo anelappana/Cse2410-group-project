@@ -1,7 +1,7 @@
 
 # WebSpyderPy
 ## HomePage
-##Deepseek Parser
+## Deepseek Parser
 
-##WebScraper
+## WebScraper
 
