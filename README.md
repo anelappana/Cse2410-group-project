@@ -1,6 +1,7 @@
-import pyvista as pv
+
 # WebSpyderPy
 ## HomePage
+##Deepseek Parser
 
-text = pv.Text3D('WEB\n SPYDER')
-text.plot(cpos='xy')
+##WebScraper
+
