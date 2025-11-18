@@ -1,8 +1,0 @@
-version: "3.9"
-services:
-  scraper:
-    build: .
-    env_file: .env
-    volumes:
-      - ./data:/app/data
-    command: bash -lc "python scripts/run_crawl.py --urls https://example.com --keywords court --fields title,url"

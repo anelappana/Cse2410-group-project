@@ -1,0 +1,74 @@
+[
+  {
+    "matched_keywords": [
+      "python",
+      "web"
+    ],
+    "links_found": [
+      "http://example.com/link0"
+    ],
+    "depth": 0,
+    "crawl_time": "2025-11-06T13:36:32.088406",
+    "loading_time": 0.5,
+    "ai_summary": "",
+    "ai_entities": [],
+    "ai_topics": [],
+    "ai_sentiment": "neutral",
+    "ai_key_points": [],
+    "ai_structured_data": {},
+    "ai_analysis_timestamp": "",
+    "ai_keywords": [],
+    "enhanced_keywords": [],
+    "url": "http://example.com/page0",
+    "title": "Test Page 0",
+    "content": "This is test content for page 0 with python and web development keywords."
+  },
+  {
+    "matched_keywords": [
+      "python",
+      "web"
+    ],
+    "links_found": [
+      "http://example.com/link1"
+    ],
+    "depth": 1,
+    "crawl_time": "2025-11-06T13:36:32.088406",
+    "loading_time": 0.5,
+    "ai_summary": "",
+    "ai_entities": [],
+    "ai_topics": [],
+    "ai_sentiment": "neutral",
+    "ai_key_points": [],
+    "ai_structured_data": {},
+    "ai_analysis_timestamp": "",
+    "ai_keywords": [],
+    "enhanced_keywords": [],
+    "url": "http://example.com/page1",
+    "title": "Test Page 1",
+    "content": "This is test content for page 1 with python and web development keywords."
+  },
+  {
+    "matched_keywords": [
+      "python",
+      "web"
+    ],
+    "links_found": [
+      "http://example.com/link2"
+    ],
+    "depth": 2,
+    "crawl_time": "2025-11-06T13:36:32.088406",
+    "loading_time": 0.5,
+    "ai_summary": "",
+    "ai_entities": [],
+    "ai_topics": [],
+    "ai_sentiment": "neutral",
+    "ai_key_points": [],
+    "ai_structured_data": {},
+    "ai_analysis_timestamp": "",
+    "ai_keywords": [],
+    "enhanced_keywords": [],
+    "url": "http://example.com/page2",
+    "title": "Test Page 2",
+    "content": "This is test content for page 2 with python and web development keywords."
+  }
+]

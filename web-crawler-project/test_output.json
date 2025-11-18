@@ -1,0 +1,51 @@
+[
+    {
+        "url": "http://example.com",
+        "title": "Python Web Development Tutorial",
+        "content": "Learn Python web development with Flask and Django. Build scalable web applications.",
+        "matched_keywords": [
+            "python",
+            "web"
+        ],
+        "links_found": [
+            "http://example.com/about",
+            "http://example.com/contact"
+        ],
+        "depth": 0,
+        "crawl_time": "2025-11-18T09:35:51.093374",
+        "loading_time": 0.0
+    },
+    {
+        "url": "http://example.com/scrapy",
+        "title": "Web Scraping with Scrapy",
+        "content": "Scrapy is a powerful web scraping framework for Python. Extract data from websites efficiently.",
+        "matched_keywords": [
+            "python",
+            "web",
+            "scrapy",
+            "data"
+        ],
+        "links_found": [
+            "http://example.com/docs",
+            "http://example.com/tutorial"
+        ],
+        "depth": 0,
+        "crawl_time": "2025-11-18T09:35:51.093374",
+        "loading_time": 0.0
+    },
+    {
+        "url": "http://example.com/data-science",
+        "title": "Data Science Fundamentals",
+        "content": "Data analysis and machine learning with Python. Pandas, NumPy, and scikit-learn tutorials.",
+        "matched_keywords": [
+            "python",
+            "data"
+        ],
+        "links_found": [
+            "http://example.com/datasets"
+        ],
+        "depth": 0,
+        "crawl_time": "2025-11-18T09:35:51.093374",
+        "loading_time": 0.0
+    }
+]
