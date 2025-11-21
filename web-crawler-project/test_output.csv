@@ -1,0 +1,4 @@
+url,title,content_preview,matched_keywords,links_count,depth,crawl_time
+http://example.com,Python Web Development Tutorial,Learn Python web development with Flask and Django. Build scalable web applications.,"python, web",2,0,2025-11-18T09:35:51.093374
+http://example.com/scrapy,Web Scraping with Scrapy,Scrapy is a powerful web scraping framework for Python. Extract data from websites efficiently.,"python, web, scrapy, data",2,0,2025-11-18T09:35:51.093374
+http://example.com/data-science,Data Science Fundamentals,"Data analysis and machine learning with Python. Pandas, NumPy, and scikit-learn tutorials.","python, data",1,0,2025-11-18T09:35:51.093374
