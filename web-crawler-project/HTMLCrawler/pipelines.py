@@ -7,7 +7,8 @@ import json
 import csv
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
+from email.utils import parsedate_to_datetime
 try:
     from scrapy.exceptions import DropItem
 except ImportError:
@@ -60,6 +61,58 @@ class KeywordMatchingPipeline:
         return item
 
 
+class JournalistFilterPipeline:
+    """Pipeline with journalist-friendly filtering and normalization"""
+
+    def _parse_date(self, date_str):
+        """Best-effort date parsing using stdlib only"""
+        if not date_str:
+            return None
+        # Try ISO-like formats first
+        for fmt in ("%Y-%m-%d", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M:%S%z"):
+            try:
+                return datetime.strptime(date_str, fmt)
+            except ValueError:
+                continue
+        # Fallback to email-style parsing
+        try:
+            return parsedate_to_datetime(date_str)
+        except Exception:
+            return None
+
+    def process_item(self, item, spider):
+        news_only = getattr(spider, 'news_only', False)
+        recent_days = getattr(spider, 'recent_days', None)
+
+        published_date_raw = item.get('published_date', '')
+        parsed_date = self._parse_date(published_date_raw)
+
+        # Enforce news-only mode: require a publish date hint
+        if news_only and not parsed_date:
+            raise DropItem(f"No publish date detected for {item.get('url')}")
+
+        # Filter by recency if requested
+        if recent_days:
+            cutoff = datetime.now(tz=parsed_date.tzinfo if parsed_date else None) - timedelta(days=recent_days)
+            if parsed_date:
+                if parsed_date < cutoff:
+                    raise DropItem(f"Out of recency window for {item.get('url')}")
+            else:
+                # If we cannot tell the date, drop in recency mode to avoid stale articles
+                raise DropItem(f"Unknown publish date while recency filtering for {item.get('url')}")
+
+        # Store normalized date string when available
+        if parsed_date:
+            item['published_date'] = parsed_date.isoformat()
+
+        # Default lead text to first sentences if missing
+        if not item.get('lead') and item.get('content'):
+            first_sentences = re.split(r'(?<=[.!?])\\s+', item['content'])
+            item['lead'] = ' '.join(first_sentences[:2]).strip()
+
+        return item
+
+
 class DataExportPipeline:
     """Pipeline to export data to CSV and JSON formats"""
     
@@ -80,7 +133,23 @@ class DataExportPipeline:
         
         # Open CSV file and write header
         self.csv_file = open(csv_filename, 'w', newline='', encoding='utf-8')
-        fieldnames = ['url', 'title', 'content_preview', 'matched_keywords', 'links_count', 'depth', 'crawl_time']
+        fieldnames = [
+            'url',
+            'canonical_url',
+            'source_domain',
+            'title',
+            'author',
+            'published_date',
+            'lead',
+            'content_preview',
+            'quotes',
+            'matched_keywords',
+            'links_count',
+            'word_count',
+            'forecast_positions',
+            'depth',
+            'crawl_time'
+        ]
         self.csv_writer = csv.DictWriter(self.csv_file, fieldnames=fieldnames)
         self.csv_writer.writeheader()
         
@@ -101,10 +170,18 @@ class DataExportPipeline:
         # Prepare item for CSV export
         csv_item = {
             'url': item.get('url', ''),
+            'canonical_url': item.get('canonical_url', ''),
+            'source_domain': item.get('source_domain', ''),
             'title': item.get('title', ''),
+            'author': item.get('author', ''),
+            'published_date': item.get('published_date', ''),
+            'lead': item.get('lead', ''),
             'content_preview': self._truncate_content(item.get('content', '')),
+            'quotes': ' | '.join(item.get('quotes', [])),
             'matched_keywords': ', '.join(item.get('matched_keywords', [])),
             'links_count': len(item.get('links_found', [])),
+            'word_count': item.get('word_count', 0),
+            'forecast_positions': item.get('forecast_positions', ''),
             'depth': item.get('depth', 0),
             'crawl_time': item.get('crawl_time', '')
         }
@@ -217,10 +294,18 @@ class EnhancedDataExportPipeline(DataExportPipeline):
         # Prepare enhanced item for CSV export
         csv_item = {
             'url': item.get('url', ''),
+            'canonical_url': item.get('canonical_url', ''),
+            'source_domain': item.get('source_domain', ''),
             'title': item.get('title', ''),
+            'author': item.get('author', ''),
+            'published_date': item.get('published_date', ''),
+            'lead': item.get('lead', ''),
             'content_preview': self._truncate_content(item.get('content', '')),
+            'quotes': ' | '.join(item.get('quotes', [])),
             'matched_keywords': ', '.join(item.get('matched_keywords', [])),
             'links_count': len(item.get('links_found', [])),
+            'word_count': item.get('word_count', 0),
+            'forecast_positions': item.get('forecast_positions', ''),
             'depth': item.get('depth', 0),
             'crawl_time': item.get('crawl_time', ''),
             # DeepSeek AI fields

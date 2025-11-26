@@ -34,7 +34,7 @@ class DeepSeekParser:
             api_key: DeepSeek API key (if None, will look for DEEPSEEK_API_KEY env var)
             base_url: DeepSeek API base URL
         """
-        self.api_key = api_key or os.getenv('DEEPSEEK_API_KEY')
+        self.api_key = api_key or self._load_api_key()
         self.base_url = base_url
         
         if self.api_key:
@@ -51,6 +51,51 @@ class DeepSeekParser:
     def is_enabled(self) -> bool:
         """Check if DeepSeek parsing is enabled"""
         return self.enabled
+
+    def _load_api_key(self) -> Optional[str]:
+        """Load API key from env or local files"""
+        # 1) Environment variable
+        env_key = os.getenv('DEEPSEEK_API_KEY')
+        if env_key:
+            return env_key.strip()
+
+        # 2) User home file: ~/.deepseek_api_key
+        home_key_path = os.path.expanduser("~/.deepseek_api_key")
+        if os.path.isfile(home_key_path):
+            try:
+                with open(home_key_path, 'r') as f:
+                    key = f.read().strip()
+                    if key:
+                        return key
+            except Exception:
+                pass
+
+        # 3) Project ini file: deepseek_config.ini
+        ini_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'deepseek_config.ini')
+        if os.path.isfile(ini_path):
+            try:
+                key = self._load_key_from_ini(ini_path)
+                if key:
+                    return key
+            except Exception:
+                pass
+
+        return None
+
+    def _load_key_from_ini(self, path: str) -> Optional[str]:
+        """Best-effort read of api_key from deepseek_config.ini without extra deps"""
+        try:
+            with open(path, 'r') as f:
+                for line in f:
+                    if line.strip().lower().startswith('api_key'):
+                        parts = line.split('=', 1)
+                        if len(parts) == 2:
+                            key = parts[1].strip()
+                            if key:
+                                return key
+        except Exception:
+            return None
+        return None
     
     def parse_content(self, content: str, url: str = "", title: str = "") -> Dict[str, Any]:
         """

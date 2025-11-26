@@ -12,7 +12,7 @@
             "http://example.com/contact"
         ],
         "depth": 0,
-        "crawl_time": "2025-11-18T09:35:51.093374",
+        "crawl_time": "2025-11-23T18:43:12.082146",
         "loading_time": 0.0
     },
     {
@@ -30,7 +30,7 @@
             "http://example.com/tutorial"
         ],
         "depth": 0,
-        "crawl_time": "2025-11-18T09:35:51.093374",
+        "crawl_time": "2025-11-23T18:43:12.082153",
         "loading_time": 0.0
     },
     {
@@ -45,7 +45,7 @@
             "http://example.com/datasets"
         ],
         "depth": 0,
-        "crawl_time": "2025-11-18T09:35:51.093374",
+        "crawl_time": "2025-11-23T18:43:12.082155",
         "loading_time": 0.0
     }
 ]

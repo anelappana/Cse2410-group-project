@@ -58,6 +58,7 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'HTMLCrawler.pipelines.KeywordMatchingPipeline': 300,
+    'HTMLCrawler.pipelines.JournalistFilterPipeline': 325,
     'HTMLCrawler.pipelines.DeepSeekAnalysisPipeline': 350,  # AI analysis after keyword matching
     'HTMLCrawler.pipelines.EnhancedDataExportPipeline': 400,  # Enhanced export with AI data
 }
@@ -65,6 +66,7 @@ ITEM_PIPELINES = {
 # Alternative pipeline configuration without AI (fallback)
 ITEM_PIPELINES_BASIC = {
     'HTMLCrawler.pipelines.KeywordMatchingPipeline': 300,
+    'HTMLCrawler.pipelines.JournalistFilterPipeline': 325,
     'HTMLCrawler.pipelines.DataExportPipeline': 400,
 }
 

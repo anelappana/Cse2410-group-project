@@ -26,13 +26,21 @@ except ImportError:
 class CrawlItem(scrapy.Item):
     # Define the fields for your item here
     url = scrapy.Field()
+    canonical_url = scrapy.Field()
+    source_domain = scrapy.Field()
     title = scrapy.Field()
     content = scrapy.Field()
+    lead = scrapy.Field()
     matched_keywords = scrapy.Field()
     links_found = scrapy.Field()
     depth = scrapy.Field()
     crawl_time = scrapy.Field()
     loading_time = scrapy.Field()
+    published_date = scrapy.Field()
+    author = scrapy.Field()
+    quotes = scrapy.Field()
+    word_count = scrapy.Field()
+    forecast_positions = scrapy.Field()
     
     # DeepSeek AI analysis fields
     ai_summary = scrapy.Field()
@@ -50,9 +58,17 @@ class CrawlItem(scrapy.Item):
         # Set default values
         self.setdefault('matched_keywords', [])
         self.setdefault('links_found', [])
+        self.setdefault('lead', '')
         self.setdefault('depth', 0)
         self.setdefault('crawl_time', datetime.now().isoformat())
         self.setdefault('loading_time', 0.0)
+        self.setdefault('canonical_url', '')
+        self.setdefault('source_domain', '')
+        self.setdefault('published_date', '')
+        self.setdefault('author', '')
+        self.setdefault('quotes', [])
+        self.setdefault('word_count', 0)
+        self.setdefault('forecast_positions', '')
         
         # AI analysis defaults
         self.setdefault('ai_summary', '')
