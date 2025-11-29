@@ -102,3 +102,8 @@ REQUEST_FINGERPRINTER_IMPLEMENTATION = '2.7'
 
 # Windows compatibility: use default reactor
 # TWISTED_REACTOR = 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'
+DOWNLOAD_HANDLERS = {
+    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}
+TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
