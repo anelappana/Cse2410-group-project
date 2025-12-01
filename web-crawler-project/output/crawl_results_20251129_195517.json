@@ -1,0 +1,31 @@
+[
+  {
+    "matched_keywords": [
+      "forecast discussion"
+    ],
+    "links_found": [],
+    "lead": "ZCZC NFDTCDAT3 ALL TTAA00 KWNH DDHHMM Post-Tropical Cyclone Chantal Discussion Number 14 NWS Weather Prediction Center College Park MD AL032025 1100 PM EDT Mon Jul 07 2025 Key Messages: 1. Heavy rainfall from Post-Tropical Cyclone Chantal is possible as it brushes by New Jersey, Long Island, Cape Cod, Martha's Vineyard, and Nantucket. Due to its increasing forward speed, any flash flooding would be isolated. 2. Life-threatening surf and rip currents conditions are expected to continue at beaches along the U.S. East Coast from northeastern Florida to the Mid-Atlantic states during the next day or so. Beach goers should heed the advice of lifeguards and local officials. FORECAST POSITIONS AND MAX WINDS INIT 08 0300Z 39.6N 73.6W 20 KT 25 MPH...POST-TROP REMNT LOW 12H 08 1200Z 41.5N 70.0W 20 KT 25 MPH...POST-TROP REMNT LOW   Forecaster Roth NNNN",
+    "depth": 0,
+    "crawl_time": "2025-11-29T19:56:44.250520",
+    "loading_time": 0.0,
+    "canonical_url": "https://www.nhc.noaa.gov/archive/2025/al03/al032025.discus.014.shtml",
+    "source_domain": "www.nhc.noaa.gov",
+    "published_date": "",
+    "author": "",
+    "quotes": [],
+    "word_count": 136,
+    "forecast_positions": "FORECAST POSITIONS AND MAX WINDS INIT 08 0300Z 39.6N 73.6W 20 KT 25 MPH...POST-TROP REMNT LOW 12H 08 1200Z 41.5N 70.0W 20 KT 25 MPH...POST-TROP REMNT LOW   Forecaster Roth NNNN",
+    "ai_summary": "",
+    "ai_entities": [],
+    "ai_topics": [],
+    "ai_sentiment": "neutral",
+    "ai_key_points": [],
+    "ai_structured_data": {},
+    "ai_analysis_timestamp": "",
+    "ai_keywords": [],
+    "enhanced_keywords": [],
+    "url": "https://www.nhc.noaa.gov/archive/2025/al03/al032025.discus.014.shtml",
+    "title": "Post-Tropical Cyclone CHANTAL",
+    "content": "ZCZC NFDTCDAT3 ALL TTAA00 KWNH DDHHMM Post-Tropical Cyclone Chantal Discussion Number 14 NWS Weather Prediction Center College Park MD AL032025 1100 PM EDT Mon Jul 07 2025 Key Messages: 1. Heavy rainfall from Post-Tropical Cyclone Chantal is possible as it brushes by New Jersey, Long Island, Cape Cod, Martha's Vineyard, and Nantucket. Due to its increasing forward speed, any flash flooding would be isolated. 2. Life-threatening surf and rip currents conditions are expected to continue at beaches along the U.S. East Coast from northeastern Florida to the Mid-Atlantic states during the next day or so. Beach goers should heed the advice of lifeguards and local officials. FORECAST POSITIONS AND MAX WINDS INIT 08 0300Z 39.6N 73.6W 20 KT 25 MPH...POST-TROP REMNT LOW 12H 08 1200Z 41.5N 70.0W 20 KT 25 MPH...POST-TROP REMNT LOW   Forecaster Roth NNNN"
+  }
+]

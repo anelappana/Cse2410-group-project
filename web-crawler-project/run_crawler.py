@@ -88,7 +88,7 @@ def _enable_playwright(settings, use_playwright):
         'https': 'scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler',
     })
     settings.set('PLAYWRIGHT_BROWSER_TYPE', 'chromium')
-    # Prefer asyncio reactor when using playwright
+    # Prefer asyncio reactor when using playwright so rendering hooks work
     settings.set('TWISTED_REACTOR', 'twisted.internet.asyncioreactor.AsyncioSelectorReactor')
     return True
 
@@ -241,6 +241,59 @@ def run_nhc_forecast_discussion(archive_url=None, year='2025', output_dir="outpu
     process.start()
 
 
+def run_keyword_js_crawler(keywords=None, domain=None, start_url=None, max_depth=3, output_dir="output",
+                           use_deepseek=False, deepseek_api_key=None, ai_keywords=False,
+                           save_deepseek_key=False, filter_by_keywords=True, allow_all_domains=False,
+                           use_playwright=True, close_timeout=None, close_pagecount=None,
+                           close_itemcount=None, jobdir=None):
+    """Run the Playwright-enabled keyword JS crawler."""
+    os.makedirs(output_dir, exist_ok=True)
+    deepseek_available = _apply_deepseek_env(deepseek_api_key, save_deepseek_key)
+
+    settings = get_project_settings()
+    playwright_enabled = _enable_playwright(settings, use_playwright)
+    if close_timeout:
+        settings.set('CLOSESPIDER_TIMEOUT', close_timeout)
+    if close_pagecount:
+        settings.set('CLOSESPIDER_PAGECOUNT', close_pagecount)
+    if close_itemcount:
+        settings.set('CLOSESPIDER_ITEMCOUNT', close_itemcount)
+    if jobdir:
+        settings.set('JOBDIR', jobdir)
+    _select_pipelines(settings, use_deepseek, deepseek_available)
+
+    process = CrawlerProcess(settings)
+
+    spider_kwargs = {
+        'max_depth': max_depth,
+        'use_deepseek': 'true' if use_deepseek else 'false',
+        'use_ai_keywords': 'true' if ai_keywords else 'false',
+        'use_playwright': 'true' if use_playwright else 'false',
+        'filter_by_keywords': 'true' if filter_by_keywords else 'false',
+        'output_dir': output_dir
+    }
+    if keywords:
+        spider_kwargs['keywords'] = keywords
+    if domain:
+        spider_kwargs['target_domain'] = domain
+    if start_url:
+        spider_kwargs['start_url'] = start_url
+    if allow_all_domains:
+        spider_kwargs['allow_all_domains'] = 'true'
+
+    process.crawl('keyword_js_crawler', **spider_kwargs)
+
+    print("Starting keyword JS crawler...")
+    print(f"Keywords: {keywords or 'python,web,scrapy,data'}")
+    print(f"Target domain: {domain or 'quotes.toscrape.com'}")
+    print(f"Start URLs: {start_url or 'http://quotes.toscrape.com/js/'}")
+    print(f"Max depth: {max_depth}")
+    print(f"Output directory: {output_dir}")
+    print(f"Playwright enabled: {playwright_enabled}")
+
+    process.start()
+
+
 def main():
     """Main function to parse arguments and run crawler"""
     parser = argparse.ArgumentParser(
@@ -267,7 +320,7 @@ Examples:
     
     parser.add_argument(
         '--spider',
-        choices=['keyword_html_crawler', 'simple_html_crawler', 'nhc_forecast_discussion'],
+        choices=['keyword_html_crawler', 'keyword_js_crawler', 'simple_html_crawler', 'nhc_forecast_discussion'],
         default='keyword_html_crawler',
         help='Spider to use (default: keyword_html_crawler)'
     )
@@ -387,6 +440,25 @@ Examples:
     try:
         if args.spider == 'keyword_html_crawler':
             run_keyword_crawler(
+                keywords=args.keywords,
+                domain=args.domain,
+                start_url=args.start_url,
+                max_depth=args.max_depth,
+                output_dir=args.output_dir,
+                use_deepseek=args.use_deepseek,
+                deepseek_api_key=args.deepseek_api_key,
+                ai_keywords=args.ai_keywords,
+                filter_by_keywords=not args.no_keyword_filter,
+                allow_all_domains=args.allow_all_domains,
+                use_playwright=args.use_playwright,
+                save_deepseek_key=args.save_deepseek_key,
+                close_timeout=args.close_timeout,
+                close_pagecount=args.close_pagecount,
+                close_itemcount=args.close_itemcount,
+                jobdir=args.jobdir
+            )
+        elif args.spider == 'keyword_js_crawler':
+            run_keyword_js_crawler(
                 keywords=args.keywords,
                 domain=args.domain,
                 start_url=args.start_url,

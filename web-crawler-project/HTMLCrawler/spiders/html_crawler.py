@@ -318,7 +318,7 @@ class NHCForecastDiscussionSpider(scrapy.Spider):
         self.archive_path_prefix = f"/archive/{self.year}/"
         # Disable keyword filtering for this spider
         self.filter_by_keywords = False
-        self._seen = set()
+        self._seen = set()  # Track visited to avoid loops across many archive links
 
     def parse(self, response):
         """

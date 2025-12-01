@@ -67,25 +67,23 @@ class KeywordJSCrawler(scrapy.Spider):
             else:
                 self.start_urls = [start_url]
         
+        # Log essential runtime options for quick debugging
         self.logger.info(f"Initialized crawler with keywords: {self.keywords}")
         self.logger.info(f"Target domains: {self.allowed_domains}")
         self.logger.info(f"Start URLs: {self.start_urls}")
         self.logger.info(f"Playwright enabled: {self.use_playwright}")
     
-    # --- NEW: MUST BE ASYNC FOR PLAYWRIGHT ---
-    async def start_requests(self):
-        """Generate initial requests with timing information"""
+    def start_requests(self):
+        """Generate initial requests; attach Playwright meta so JS is rendered."""
         for url in self.start_urls:
-            meta = {'start_time': time.time(), 'depth': 1} # Start depth at 1
-            
+            meta = {'start_time': time.time(), 'depth': 1}  # Start depth at 1
+
             if self.use_playwright:
                 meta['playwright'] = True
-                # CRITICAL: Add a wait instruction to ensure JS content loads
                 meta['playwright_page_methods'] = [
-                    # Wait for the main body element to be present after JS execution
-                    PageMethod("wait_for_selector", "body") 
+                    PageMethod("wait_for_selector", "body")
                 ]
-            
+
             yield scrapy.Request(url=url, callback=self.parse_item, meta=meta, dont_filter=True)
     
     # --- NEW: MUST BE ASYNC FOR PLAYWRIGHT ---
