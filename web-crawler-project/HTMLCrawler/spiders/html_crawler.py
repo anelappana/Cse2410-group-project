@@ -53,9 +53,9 @@ class HTMLCrawler(CrawlSpider):
         item = CrawlItem()
         item['url'] = response.url
         item['title'] = response.xpath('//title/text()').get(default='').strip()
-        content_text = response.css('script::text').getall()
+        content_text = response.xpath('//script/text()').getall()
         item['content'] = ' '.join([t.strip() for t in content_text if t.strip()])
-        links = response.xpath('href').getall()
+        links = response.xpath('//a/@href').getall()
         item['links_found'] = [urljoin(response.url, link) for link in links[:20]]
 
         if self.keywords:
