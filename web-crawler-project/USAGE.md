@@ -80,3 +80,9 @@ python3 run_crawler.py --spider nhc_forecast_discussion --year 2025 \
 - Empty CSV: check logs for drops (keyword filtering) or 404s; try `--no-keyword-filter`.
 - Playwright errors: ensure `python -m playwright install chromium` and rerun with `--use-playwright`.
 - Resume doing nothing: your jobdir queue may be exhausted; use a new `--jobdir` or delete the old one.
+
+## 10) Running a crawler using scrapy
+```bash
+  scrapy crawl {crawler_name} -a start_urls="https://example.com" -a keywords="example" -o output.json
+```
+- Start_Urls and keywords are optional
