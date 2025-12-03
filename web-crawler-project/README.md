@@ -120,6 +120,25 @@ python run_crawler.py --max-depth 2 --keywords "web scraping"
 python run_crawler.py --output-dir "my_results" --keywords "data science"
 ```
 
+### 🔍 Topic search -> fetch -> summarize (new)
+
+For quick research runs without configuring Scrapy:
+
+```bash
+# Search a topic, fetch top results, and summarize each page (uses DeepSeek if key is set)
+python search_and_scrape.py --topic "latest nba trades" --results 5 --output-dir output --max-chars 4000
+```
+
+To summarize specific URLs directly:
+
+```bash
+python simple_deepseek_scraper.py --urls "https://www.nba.com,https://www.espn.com/nba" --output-dir output --max-chars 4000
+```
+
+Notes:
+- Set `DEEPSEEK_API_KEY` (or `~/.deepseek_api_key`) to enable AI summaries; otherwise the fallback heuristic summaries are used.
+- Outputs are JSON files in `output/` with per-URL summaries, keeping the source URL and title for location context.
+
 ### Available Spiders
 
 1. **`keyword_html_crawler`** (default):

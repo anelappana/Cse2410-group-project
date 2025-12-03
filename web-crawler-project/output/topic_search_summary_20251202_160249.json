@@ -1,0 +1,173 @@
+{
+  "topic": "latest nba trades",
+  "search_engine": "duckduckgo_html",
+  "result_count": 5,
+  "timestamp": "20251202_160249",
+  "results": [
+    {
+      "url": "https://www.nba.com/news/2024-25-nba-trade-tracker",
+      "domain": "www.nba.com",
+      "title": "2024-25 NBA Trade Tracker: Every official deal | NBA.com",
+      "raw_html_length": 337630,
+      "clean_text_preview": "2024-25 NBA Trade Tracker: Every official deal | NBA.com Navigation Toggle Home Tickets Key Dates 2025-26 Regular Season Schedule National TV Games Emirates NBA Cup Schedule League Pass Schedule Cosm Schedule NBA Cup Home Bracket Schedule Standings NBA Cup 101 FAQ Key Dates Featured NBA TV Home Top Stories Features 2026 All-Star Events Key Dates Transactions Future Starts Now History Writer Archive More Stats Home Dunk Score Inside the Game Players Teams Leaders Stats 101 Cume Stats Lineups Tool",
+      "analysis": {
+        "summary": "2024-25 NBA Trade Tracker: Every official deal | NBA",
+        "entities": [
+          "Every",
+          "Get",
+          "Ladder",
+          "Boston",
+          "Rankings",
+          "Features",
+          "Cleveland",
+          "Atlanta",
+          "Southeast",
+          "Teams"
+        ],
+        "topics": [],
+        "sentiment": "neutral",
+        "key_points": [],
+        "structured_data": {
+          "word_count": 600,
+          "content_type": "webpage",
+          "parser_used": "fallback"
+        },
+        "analysis_timestamp": "2025-12-02T16:02:43.688656",
+        "parser_used": "fallback"
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.espn.com/nba/transactions",
+      "domain": "www.espn.com",
+      "title": "NBA Transactions - 2025-26 Season - ESPN",
+      "raw_html_length": 379365,
+      "clean_text_preview": "NBA Transactions - 2025-26 Season - ESPN Skip to main content Skip to navigation ESPN NFL NFL NBA NBA MLB MLB NCAAF NCAAF NHL NHL Soccer Soccer WNBA WNBA More Sports More Sports Watch Watch Fantasy Fantasy Where to Watch Search NBA Home Scores Schedule Standings Stats Stats Teams Teams Players Where To Watch Odds Fantasy Men's Basketball More More NBA Transactions Team Transactions Atlanta Hawks Boston Celtics Brooklyn Nets Charlotte Hornets Chicago Bulls Cleveland Cavaliers Dallas Mavericks Den",
+      "analysis": {
+        "summary": "NBA Transactions - 2025-26 Season - ESPN Skip to main content Skip to navigation ESPN NFL NFL NBA NBA MLB MLB NCAAF NCAAF NHL NHL Soccer Soccer WNBA WNBA More Sports More Sports Watch Watch Fantasy Fa...",
+        "entities": [
+          "December",
+          "Personal",
+          "Bassey",
+          "Online",
+          "Smith",
+          "Privacy",
+          "Boston",
+          "Monte",
+          "Bufkin",
+          "Cleveland"
+        ],
+        "topics": [],
+        "sentiment": "neutral",
+        "key_points": [],
+        "structured_data": {
+          "word_count": 605,
+          "content_type": "webpage",
+          "parser_used": "fallback"
+        },
+        "analysis_timestamp": "2025-12-02T16:02:44.734809",
+        "parser_used": "fallback"
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://hoopshype.com/rumors/",
+      "domain": "hoopshype.com",
+      "title": "NBA Trade & Free Agency Rumors | HoopsHype",
+      "raw_html_length": 132131,
+      "clean_text_preview": "NBA Trade & Free Agency Rumors | HoopsHype Advertisement - scroll for more content Rumors News & Analysis Salaries Player Rankings NBA 2K Rankings Free Agency Rumors Team All Teams Aaron Gordon on 2025-26 championship: 'We're going to be the ones that walk off with a win' \u200c Aaron Gordon: \u201cAt the end of the day, I believe, we\u2019re going to be the ones that walk off with a win. We\u2019ll be the last team to win. Everyone else is going to hold an L at the end of the season. Except for us. We\u2019re going to ",
+      "analysis": {
+        "summary": "NBA Trade & Free Agency Rumors | HoopsHype Advertisement - scroll for more content Rumors News & Analysis Salaries Player Rankings NBA 2K Rankings Free Agency Rumors Team All Teams Aaron Gordon on 202...",
+        "entities": [
+          "Nearly",
+          "Mr",
+          "Rankings",
+          "Company",
+          "In",
+          "Teams",
+          "Some",
+          "Award",
+          "Two",
+          "Dream"
+        ],
+        "topics": [],
+        "sentiment": "neutral",
+        "key_points": [],
+        "structured_data": {
+          "word_count": 686,
+          "content_type": "webpage",
+          "parser_used": "fallback"
+        },
+        "analysis_timestamp": "2025-12-02T16:02:46.062294",
+        "parser_used": "fallback"
+      },
+      "rank": 3
+    },
+    {
+      "url": "https://www.spotrac.com/nba/transactions/",
+      "domain": "www.spotrac.com",
+      "title": "NBA Transactions",
+      "raw_html_length": 434506,
+      "clean_text_preview": "NBA Transactions Sign in Sign up Email address Please provide a valid email address. Password Forgot password? Sign in Why sign up for Spotrac Premium?! Ad-FREE Experience Historical Contract Information Historical Team Financials Advanced Data Portal Just $30 per year (recurring)! First Name Please fill in your first name. Last Name Please fill in your last name. Email address Please provide a valid email address. Password Sign up Expand menu Hello, Sign in Premium PREMIUM My Account Logout HOM",
+      "analysis": {
+        "summary": "NBA Transactions Sign in Sign up Email address Please provide a valid email address",
+        "entities": [
+          "Darius",
+          "Jacksonville",
+          "Suspensions",
+          "Rankings",
+          "Boston",
+          "Financials",
+          "Mariners",
+          "Cleveland",
+          "Advanced",
+          "Atlanta"
+        ],
+        "topics": [],
+        "sentiment": "neutral",
+        "key_points": [],
+        "structured_data": {
+          "word_count": 606,
+          "content_type": "webpage",
+          "parser_used": "fallback"
+        },
+        "analysis_timestamp": "2025-12-02T16:02:47.801990",
+        "parser_used": "fallback"
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/nba-trade-rumor-rankings-jonathan-174400571.html",
+      "domain": "sports.yahoo.com",
+      "title": "NBA trade rumor rankings: Jonathan Kuminga, Ja Morant and more - Yahoo Sports",
+      "raw_html_length": 600133,
+      "clean_text_preview": "NBA trade rumor rankings: Jonathan Kuminga, Ja Morant and more - Yahoo Sports Search query Search News Finance Sports More -1 Manage your account Help Add or switch accounts Sign out NBA News Scores/Schedule Standings Stats Teams Players Injuries Odds Wemby Watch NBA Cup NBA Cup Bracket Summer League Play High Score Fantasy Basketball The Kevin O'Connor Show The Big Number The Dunker Spot All-Star Game Draft Guide Draft Grades Playoff Bracket Finals ... Fantasy Watch Network Advertisement Advert",
+      "analysis": {
+        "summary": "NBA trade rumor rankings: Jonathan Kuminga, Ja Morant and more - Yahoo Sports Search query Search News Finance Sports More -1 Manage your account Help Add or switch accounts Sign out NBA News Scores/S...",
+        "entities": [
+          "December",
+          "Lane",
+          "Week",
+          "Dunker",
+          "Rankings",
+          "In",
+          "Michael",
+          "Teams",
+          "Odds",
+          "Spot"
+        ],
+        "topics": [],
+        "sentiment": "neutral",
+        "key_points": [],
+        "structured_data": {
+          "word_count": 659,
+          "content_type": "webpage",
+          "parser_used": "fallback"
+        },
+        "analysis_timestamp": "2025-12-02T16:02:49.339356",
+        "parser_used": "fallback"
+      },
+      "rank": 5
+    }
+  ]
+}
