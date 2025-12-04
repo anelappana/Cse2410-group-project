@@ -1,0 +1,321 @@
+{
+  "topic": "latest nba trades",
+  "search_engine": "duckduckgo_html",
+  "result_count": 5,
+  "timestamp": "20251202_160655",
+  "results": [
+    {
+      "url": "https://www.nba.com/news/2024-25-nba-trade-tracker",
+      "domain": "www.nba.com",
+      "title": "2024-25 NBA Trade Tracker: Every official deal | NBA.com",
+      "raw_html_length": 337630,
+      "clean_text_preview": "2024-25 NBA Trade Tracker: Every official deal | NBA.com Navigation Toggle Home Tickets Key Dates 2025-26 Regular Season Schedule National TV Games Emirates NBA Cup Schedule League Pass Schedule Cosm Schedule NBA Cup Home Bracket Schedule Standings NBA Cup 101 FAQ Key Dates Featured NBA TV Home Top Stories Features 2026 All-Star Events Key Dates Transactions Future Starts Now History Writer Archive More Stats Home Dunk Score Inside the Game Players Teams Leaders Stats 101 Cume Stats Lineups Tool",
+      "analysis": {
+        "summary": "This is the NBA's official trade tracker for the 2024-25 season, listing every league-approved transaction. It provides details on specific trades, such as the Washington Wizards acquiring Marcus Smart, and notes that the trade deadline was February 6, 2025.",
+        "entities": [
+          "NBA",
+          "Washington Wizards",
+          "Memphis Grizzlies",
+          "Sacramento Kings",
+          "Marcus Smart",
+          "Colby Jones",
+          "Alex Len"
+        ],
+        "topics": [
+          "NBA Trades",
+          "2024-25 NBA Season",
+          "Trade Deadline",
+          "Player Transactions"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Tracks every official trade for the 2024-25 NBA season.",
+          "Defines 'official' as a deal approved by the league and announced by the team.",
+          "States the trade deadline was February 6, 2025, at 3 p.m. ET.",
+          "Provides an example trade: Wizards acquire Marcus Smart, Colby Jones, Alex Len, and a draft pick from the Grizzlies and Kings."
+        ],
+        "structured_data": {
+          "category": "Sports News",
+          "difficulty_level": "beginner",
+          "content_type": "news"
+        },
+        "analysis_timestamp": "2025-12-02T16:05:57.975784",
+        "parser_used": "deepseek"
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.espn.com/nba/transactions",
+      "domain": "www.espn.com",
+      "title": "NBA Transactions - 2025-26 Season - ESPN",
+      "raw_html_length": 379361,
+      "clean_text_preview": "NBA Transactions - 2025-26 Season - ESPN Skip to main content Skip to navigation ESPN NFL NFL NBA NBA MLB MLB NCAAF NCAAF NHL NHL Soccer Soccer WNBA WNBA More Sports More Sports Watch Watch Fantasy Fantasy Where to Watch Search NBA Home Scores Schedule Standings Stats Stats Teams Teams Players Where To Watch Odds Fantasy Men's Basketball More More NBA Transactions Team Transactions Atlanta Hawks Boston Celtics Brooklyn Nets Charlotte Hornets Chicago Bulls Cleveland Cavaliers Dallas Mavericks Den",
+      "analysis": {
+        "summary": "This is a list of NBA transactions for the 2025-26 season, detailing player signings, waivers, contract extensions, fines, and front-office changes for various teams. The content is presented in reverse chronological order, with the most recent transactions at the top.",
+        "entities": [
+          "Atlanta Hawks",
+          "Boston Celtics",
+          "Brooklyn Nets",
+          "Charlotte Hornets",
+          "Chicago Bulls",
+          "Cleveland Cavaliers",
+          "Dallas Mavericks",
+          "Denver Nuggets",
+          "Detroit Pistons",
+          "Golden State Warriors",
+          "Houston Rockets",
+          "Indiana Pacers",
+          "LA Clippers",
+          "Los Angeles Lakers",
+          "Memphis Grizzlies",
+          "Miami Heat",
+          "Milwaukee Bucks",
+          "Minnesota Timberwolves",
+          "New Orleans Pelicans",
+          "New York Knicks",
+          "Oklahoma City Thunder",
+          "Orlando Magic",
+          "Philadelphia 76ers",
+          "Phoenix Suns",
+          "Portland Trail Blazers",
+          "Sacramento Kings",
+          "San Antonio Spurs",
+          "Toronto Raptors",
+          "Utah Jazz",
+          "Washington Wizards",
+          "Seth Curry",
+          "Jackson Rowe",
+          "Ethan Thompson",
+          "Kobe Bufkin",
+          "Dillon Brooks",
+          "Jeremiah Robinson-Earl",
+          "Monte Morris",
+          "Garrison Mathews",
+          "Jamaree Bouyea",
+          "Jahmai Mashack",
+          "PJ Hall",
+          "Nico Harrison",
+          "Wendell Moore Jr.",
+          "Colby Jones",
+          "Mac McClung",
+          "Isaac Jones",
+          "Cody Martin",
+          "Brandon Miller",
+          "Tidjane Sala\u00fcn",
+          "James Wiseman",
+          "Charles Bassey",
+          "Jaden Springer",
+          "Javonte Cooke",
+          "Shaedon Sharpe",
+          "Tyler Smith",
+          "Christian Braun",
+          "Dyson Daniels",
+          "Dillon Jones",
+          "Kevin Durant"
+        ],
+        "topics": [
+          "NBA",
+          "Basketball",
+          "Player Transactions",
+          "Contracts",
+          "Team Rosters",
+          "Sports Management"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Transactions are listed by date in reverse chronological order.",
+          "Includes signings to various contract types: rest-of-season, two-year, 10-day, and two-way contracts.",
+          "Includes player waivers and claims off waivers from other teams.",
+          "Includes contract extensions for players like Kevin Durant and rookie-scale extensions.",
+          "Includes front-office changes, such as the firing of a general manager.",
+          "Includes disciplinary actions, such as player fines."
+        ],
+        "structured_data": {
+          "category": "Sports News / Data",
+          "difficulty_level": "beginner",
+          "content_type": "news"
+        },
+        "analysis_timestamp": "2025-12-02T16:06:15.038535",
+        "parser_used": "deepseek"
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://hoopshype.com/rumors/",
+      "domain": "hoopshype.com",
+      "title": "NBA Trade & Free Agency Rumors | HoopsHype",
+      "raw_html_length": 132131,
+      "clean_text_preview": "NBA Trade & Free Agency Rumors | HoopsHype Advertisement - scroll for more content Rumors News & Analysis Salaries Player Rankings NBA 2K Rankings Free Agency Rumors Team All Teams Aaron Gordon on 2025-26 championship: 'We're going to be the ones that walk off with a win' \u200c Aaron Gordon: \u201cAt the end of the day, I believe, we\u2019re going to be the ones that walk off with a win. We\u2019ll be the last team to win. Everyone else is going to hold an L at the end of the season. Except for us. We\u2019re going to ",
+      "analysis": {
+        "summary": "The content is a collection of NBA-related news and rumors, featuring Aaron Gordon's championship prediction for the Denver Nuggets, details about the potential sale of the Lakers' cable network (Spectrum SportsNet), and a profile of the French agency Comsport representing Victor Wembanyama.",
+        "entities": [
+          "Aaron Gordon",
+          "Denver Nuggets",
+          "Charter Communications",
+          "The Raine Group",
+          "Mark Walter",
+          "Los Angeles Lakers",
+          "Spectrum SportsNet",
+          "Bouna Ndiaye",
+          "J\u00e9r\u00e9my Medjana",
+          "Comsport",
+          "Victor Wembanyama",
+          "San Antonio Spurs",
+          "France",
+          "New York Times Company",
+          "Quad Entertainment"
+        ],
+        "topics": [
+          "NBA Trade Rumors",
+          "Free Agency",
+          "Team Ownership",
+          "Media Business",
+          "Sports Broadcasting",
+          "Player Representation",
+          "International Basketball"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Aaron Gordon confidently predicts the Denver Nuggets will win the 2025-26 NBA championship.",
+          "Charter has hired The Raine Group to sell Spectrum SportsNet, the Lakers' cable network, with multiple companies showing interest.",
+          "Mark Walter, the Lakers' owner, is open to acquiring the network and potentially the Dodgers' network as well.",
+          "The Lakers have a lucrative option to extend their current media deal through 2037.",
+          "Comsport, a French agency founded by Bouna Ndiaye and J\u00e9r\u00e9my Medjana, is now a premier agency representing top French NBA talent like Victor Wembanyama.",
+          "Their story will be featured in an upcoming movie titled 'The American Dream'."
+        ],
+        "structured_data": {
+          "category": "Sports News & Rumors",
+          "difficulty_level": "beginner",
+          "content_type": "news"
+        },
+        "analysis_timestamp": "2025-12-02T16:06:28.379499",
+        "parser_used": "deepseek"
+      },
+      "rank": 3
+    },
+    {
+      "url": "https://www.spotrac.com/nba/transactions/",
+      "domain": "www.spotrac.com",
+      "title": "NBA Transactions",
+      "raw_html_length": 434506,
+      "clean_text_preview": "NBA Transactions Sign in Sign up Email address Please provide a valid email address. Password Forgot password? Sign in Why sign up for Spotrac Premium?! Ad-FREE Experience Historical Contract Information Historical Team Financials Advanced Data Portal Just $30 per year (recurring)! First Name Please fill in your first name. Last Name Please fill in your last name. Email address Please provide a valid email address. Password Sign up Expand menu Hello, Sign in Premium PREMIUM My Account Logout HOM",
+      "analysis": {
+        "summary": "This is the NBA transactions page from Spotrac, a sports financial data website, which appears to be primarily a login/signup gateway for accessing premium content. The page lists navigation elements for NBA team financial data, contracts, and transaction types, but the main visible content is focused on user authentication and promoting a premium subscription service.",
+        "entities": [
+          "Spotrac",
+          "NBA",
+          "NFL",
+          "MLB",
+          "Boston Celtics",
+          "Brooklyn Nets",
+          "New York Knicks",
+          "Philadelphia 76ers",
+          "Toronto Raptors",
+          "Chicago Bulls",
+          "Cleveland Cavaliers",
+          "Detroit Pistons",
+          "Indiana Pacers",
+          "Milwaukee Bucks",
+          "Atlanta Hawks",
+          "Charlotte Hornets",
+          "Miami Heat",
+          "Orlando Magic",
+          "Washington Wizards",
+          "Denver Nuggets",
+          "Minnesota Timberwolves",
+          "Oklahoma City Thunder",
+          "Portland Trail Blazers",
+          "Utah Jazz",
+          "Golden State Warriors",
+          "LA Clippers",
+          "Los Angeles Lakers",
+          "Phoenix Suns",
+          "Sacramento Kings",
+          "Dallas Mavericks",
+          "Houston Rockets",
+          "Memphis Grizzlies",
+          "New Orleans Pelicans",
+          "San Antonio Spurs",
+          "Danilo Gallinari",
+          "Giannis Antetokounmpo",
+          "LeBron James",
+          "Dillon Brooks",
+          "Austin Reaves"
+        ],
+        "topics": [
+          "NBA transactions",
+          "sports finance",
+          "contract data",
+          "user authentication",
+          "premium subscription service",
+          "team financials",
+          "player contracts"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Page is primarily a login/signup portal for Spotrac's premium content.",
+          "Promotes Spotrac Premium subscription at $30/year with features like ad-free experience and historical contract data.",
+          "Shows navigation structure for NBA team pages, transactions (all, trades, fines & suspensions), and popular player pages.",
+          "Lists all NBA teams organized by division (Atlantic, Central, Southeast, Northwest, Pacific, Southwest).",
+          "Includes references to other sports leagues (NFL, MLB) available on the site."
+        ],
+        "structured_data": {
+          "category": "Sports Finance / Data",
+          "difficulty_level": "beginner",
+          "content_type": "website portal / authentication page"
+        },
+        "analysis_timestamp": "2025-12-02T16:06:44.245751",
+        "parser_used": "deepseek"
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/nba-trade-rumor-rankings-jonathan-174400571.html",
+      "domain": "sports.yahoo.com",
+      "title": "NBA trade rumor rankings: Jonathan Kuminga, Ja Morant and more - Yahoo Sports",
+      "raw_html_length": 600133,
+      "clean_text_preview": "NBA trade rumor rankings: Jonathan Kuminga, Ja Morant and more - Yahoo Sports Search query Search News Finance Sports More -1 Manage your account Help Add or switch accounts Sign out NBA News Scores/Schedule Standings Stats Teams Players Injuries Odds Wemby Watch NBA Cup NBA Cup Bracket Summer League Play High Score Fantasy Basketball The Kevin O'Connor Show The Big Number The Dunker Spot All-Star Game Draft Guide Draft Grades Playoff Bracket Finals ... Fantasy Watch Network Advertisement Advert",
+      "analysis": {
+        "summary": "The article ranks NBA players based on how often they've appeared in trade rumors over the previous week, noting it's a point guard-heavy edition. It specifically discusses Jonathan Kuminga's trade rumors, mentioning past discussions with the Indiana Pacers and his contract situation.",
+        "entities": [
+          "Jonathan Kuminga",
+          "Ja Morant",
+          "Golden State Warriors",
+          "Indiana Pacers",
+          "Domantas Sabonis",
+          "Sacramento Kings",
+          "Tyrese Haliburton",
+          "Buddy Hield",
+          "Andrew Wiggins",
+          "Marc Stein",
+          "HoopsHype",
+          "Yahoo Sports",
+          "Keon Ellis"
+        ],
+        "topics": [
+          "NBA trade rumors",
+          "player rankings",
+          "basketball trades",
+          "team strategies"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Article is part of a 'Trade Rumors Rankings' series ranking players by frequency of trade rumors.",
+          "This week's edition is point guard-heavy.",
+          "Jonathan Kuminga (ranked 5th) is discussed as a trade candidate for the Golden State Warriors.",
+          "Past trade discussions between the Warriors and Pacers involving Kuminga, Sabonis, Hield, and Wiggins are mentioned.",
+          "Kuminga's contract (with a team option for 2026-27) is noted as potentially appealing to other teams.",
+          "The article suggests the most obvious outcome is Golden State trading Kuminga to a team that better fits his timeline."
+        ],
+        "structured_data": {
+          "category": "Sports/Basketball",
+          "difficulty_level": "beginner",
+          "content_type": "news"
+        },
+        "analysis_timestamp": "2025-12-02T16:06:55.898913",
+        "parser_used": "deepseek"
+      },
+      "rank": 5
+    }
+  ]
+}

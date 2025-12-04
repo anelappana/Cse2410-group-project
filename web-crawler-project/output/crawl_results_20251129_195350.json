@@ -1,0 +1,43 @@
+[
+  {
+    "matched_keywords": [
+      "web",
+      "data"
+    ],
+    "links_found": [
+      "https://www.scrapethissite.com/",
+      "https://www.scrapethissite.com/pages/",
+      "https://www.scrapethissite.com/lessons/",
+      "https://www.scrapethissite.com/faq/",
+      "https://www.scrapethissite.com/login/",
+      "https://www.scrapethissite.com/pages/simple/",
+      "https://www.scrapethissite.com/pages/forms/",
+      "https://www.scrapethissite.com/pages/ajax-javascript/",
+      "https://www.scrapethissite.com/pages/frames/",
+      "https://www.scrapethissite.com/pages/advanced/"
+    ],
+    "lead": "A single page that lists information about all the countries in the world. Good for those just get started with web scraping.",
+    "depth": 0,
+    "crawl_time": "2025-11-29T19:53:57.095183",
+    "loading_time": 1.7724158763885498,
+    "canonical_url": "https://www.scrapethissite.com/pages/",
+    "source_domain": "www.scrapethissite.com",
+    "published_date": "",
+    "author": "",
+    "quotes": [],
+    "word_count": 125,
+    "forecast_positions": "",
+    "ai_summary": "",
+    "ai_entities": [],
+    "ai_topics": [],
+    "ai_sentiment": "neutral",
+    "ai_key_points": [],
+    "ai_structured_data": {},
+    "ai_analysis_timestamp": "",
+    "ai_keywords": [],
+    "enhanced_keywords": [],
+    "url": "https://www.scrapethissite.com/pages/",
+    "title": "Web Scraping Sandbox",
+    "content": "A single page that lists information about all the countries in the world. Good for those just get started with web scraping. Browse through a database of NHL team stats since 1990. Practice building a scraper that handles common website interface components. Click through a bunch of great films. Learn how content is added to the page asynchronously with Javascript and how you can scrape it. Some older sites might still use frames to break up thier pages. Modern ones might be using iFrames to expose data. Learn about turtles as you scrape content inside frames. Scraping real websites, you're likely run into a number of common gotchas. Get practice with spoofing headers, handling logins   session cookies, finding CSRF tokens, and other common network errors."
+  }
+]

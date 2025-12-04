@@ -1,0 +1,234 @@
+{
+  "topic": "Hurricane forcast data",
+  "search_engine": "duckduckgo_html",
+  "result_count": 5,
+  "timestamp": "20251202_160929",
+  "results": [
+    {
+      "url": "https://www.nhc.noaa.gov/",
+      "domain": "www.nhc.noaa.gov",
+      "title": "",
+      "raw_html_length": 68530,
+      "clean_text_preview": "Home Mobile Site Text Version RSS Local Forecast NATIONAL HURRICANE CENTER and CENTRAL PACIFIC HURRICANE CENTER National Oceanic and Atmospheric Administration Analysis & Forecasts Tropical Cyclone Products Tropical Weather Outlooks Marine Products Rip Currents Map RSS Feeds GIS Products Alternate Formats Tropical Cyclone Product Descriptions Tropical Cyclone Product Examples Marine Product Descriptions Data & Tools Satellite Imagery Radar Imagery Aircraft Reconnaissance Tropical Analysis Tools ",
+      "analysis": {
+        "summary": "The National Hurricane Center website provides tropical cyclone information, forecasts, and educational resources for Atlantic, Eastern Pacific, and Central Pacific regions. It indicates no active tropical cyclones across all monitored regions as of December 2025, with hurricane seasons being inactive during this period. The site serves as a comprehensive hub for hurricane preparedness, marine forecasts, historical data, and research resources.",
+        "entities": [
+          "National Hurricane Center",
+          "Central Pacific Hurricane Center",
+          "National Oceanic and Atmospheric Administration",
+          "NOAA",
+          "NHC",
+          "FLASH",
+          "Tropical Analysis and Forecast Branch"
+        ],
+        "topics": [
+          "hurricane forecasting",
+          "tropical weather outlooks",
+          "marine forecasts",
+          "hurricane preparedness",
+          "cyclone climatology",
+          "satellite imagery",
+          "storm surge",
+          "hurricane research"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "No active tropical cyclones in Atlantic, Eastern Pacific, or Central Pacific regions as of December 2025",
+          "Atlantic hurricane season runs June 1-November 30",
+          "Eastern Pacific hurricane season runs May 15-November 30",
+          "Website provides tropical cyclone products, marine forecasts, and educational resources",
+          "Includes hurricane preparedness information and safety guidelines",
+          "Offers historical data, forecast verification, and research materials"
+        ],
+        "structured_data": {
+          "category": "weather and climate information",
+          "difficulty_level": "intermediate",
+          "content_type": "documentation"
+        },
+        "analysis_timestamp": "2025-12-02T16:08:45.726262",
+        "parser_used": "deepseek"
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.tropicaltidbits.com/analysis/models/",
+      "domain": "www.tropicaltidbits.com",
+      "title": "Forecast Models | Tropical Tidbits",
+      "raw_html_length": 239664,
+      "clean_text_preview": "Forecast Models | Tropical Tidbits Current Storms Aircraft Recon Satellite Imagery Forecast Models Analysis Tools About Support TT Numerical Model Prediction Support Tropical Tidbits GFS Run Time: 12Z Dec 02 Global ECMWF EC-fast EC-AIFS GFS CMC NAVGEM ICON JMA Ensemble EPS EPS-fast GEFS GEPS Hurricane HWRF KOTO 33W DITWAH 05B HWRF Parent KOTO 33W DITWAH 05B HMON - No storms HAFS-A KOTO 33W DITWAH 05B HAFS-A Parent KOTO 33W DITWAH 05B HAFS-B - No storms HAFS-B Parent - No storms GFS KOTO 33W DITW",
+      "analysis": {
+        "summary": "This is a meteorological website providing access to various numerical weather prediction models and analysis tools. The page displays multiple forecast models including global, hurricane, mesoscale, and climate models with specific storm tracking data. It offers interactive tools for creating forecast visualizations and accessing different atmospheric parameters.",
+        "entities": [
+          "GFS",
+          "ECMWF",
+          "CMC",
+          "NAVGEM",
+          "ICON",
+          "JMA",
+          "EPS",
+          "GEFS",
+          "GEPS",
+          "HWRF",
+          "HMON",
+          "HAFS",
+          "NAM",
+          "HRRR",
+          "FV3",
+          "WRF-ARW",
+          "RGEM",
+          "HRDPS",
+          "CFS",
+          "CanSIPS",
+          "NMME"
+        ],
+        "topics": [
+          "weather forecasting",
+          "numerical weather prediction models",
+          "meteorological data visualization",
+          "storm tracking",
+          "atmospheric analysis"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Provides access to multiple global forecast models (GFS, ECMWF, CMC, etc.)",
+          "Includes specialized hurricane models (HWRF, HMON, HAFS) with active storm tracking",
+          "Offers mesoscale models (NAM, HRRR, WRF-ARW) for regional forecasting",
+          "Features climate prediction models (CFS, CanSIPS, NMME)",
+          "Contains interactive tools for creating forecast GIFs and trend visualizations",
+          "Displays various atmospheric parameters including precipitation, wind, temperature, and pressure data",
+          "Shows model run times with historical data going back multiple days"
+        ],
+        "structured_data": {
+          "category": "Meteorology/Weather Forecasting",
+          "difficulty_level": "intermediate",
+          "content_type": "data portal/documentation"
+        },
+        "analysis_timestamp": "2025-12-02T16:08:57.828835",
+        "parser_used": "deepseek"
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://www.thehurricanehq.org/tropical-weather/forecasts-data",
+      "domain": "www.thehurricanehq.org",
+      "title": "The Hurricane HQ - Forecasts & Data",
+      "raw_html_length": 139090,
+      "clean_text_preview": "The Hurricane HQ - Forecasts & Data Search this site Embedded Files Skip to main content Skip to navigation The Hurricane HQ Home Weather Forecasts Severe Weather SPC Outlooks Satellite & Radar Surface Maps & Data Useful Websites Winter Weather Winter Weather Sea Ice & Snowfall US Weather Current Conditions WPC Outlooks Short Term Forecasts Weather Radar Mars Weather Weather Survival Guide Channel Outlets Channel Partners Weather Services Around The World The Hurricane HQ Home Weather Forecasts ",
+      "analysis": {
+        "summary": "This page from The Hurricane HQ provides auto-updating maps and data on tropical cyclones in the Atlantic Ocean. It includes various current forecasts, satellite imagery, and environmental data, while directing users to official sources like the NHC and NWS for urgent weather updates.",
+        "entities": [
+          "The Hurricane HQ",
+          "NHC (National Hurricane Center)",
+          "NWS (National Weather Service)",
+          "nhc.noaa.gov",
+          "weather.gov"
+        ],
+        "topics": [
+          "tropical weather",
+          "Atlantic basin cyclones",
+          "weather forecasts",
+          "satellite data",
+          "surface maps",
+          "weather safety"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Provides latest auto-updating maps and data on Atlantic tropical cyclones",
+          "Includes 5-day outlook, cyclone favorability, water temperatures, heat potential, moisture, dust forecast, wind shear, and satellite imagery",
+          "References Saffir-Simpson and Beaufort wind scales",
+          "Emphasizes using official NHC and NWS sources for urgent updates"
+        ],
+        "structured_data": {
+          "category": "weather/meteorology",
+          "difficulty_level": "intermediate",
+          "content_type": "documentation/data portal"
+        },
+        "analysis_timestamp": "2025-12-02T16:09:07.199241",
+        "parser_used": "deepseek"
+      },
+      "rank": 3
+    },
+    {
+      "url": "https://hurricanenetwork.org/tools/",
+      "domain": "hurricanenetwork.org",
+      "title": "Data & Tools - The Hurricane Network",
+      "raw_html_length": 7380,
+      "clean_text_preview": "Data & Tools - The Hurricane Network Home About Advisories Data & Tools Access tools and data to track hurricanes and stay informed during hurricane season. National Hurricane Center (NHC) The National Hurricane Center (NHC) is the primary source for hurricane tracking and forecasting in the United States. Their website provides real-time updates on active storms, including the latest advisories, forecasts, and storm tracks. You can also access historical hurricane data and track past storm path",
+      "analysis": {
+        "summary": "The web page provides a collection of tools and data sources for tracking hurricanes and staying informed during hurricane season. It describes several official and third-party resources including the National Hurricane Center, storm tracking apps, satellite imagery, flood maps, emergency alerts, and forecast models. The content serves as a practical guide for accessing hurricane-related information.",
+        "entities": [
+          "The Hurricane Network",
+          "National Hurricane Center (NHC)",
+          "The Weather Channel",
+          "NOAA",
+          "FEMA",
+          "European Centre for Medium-Range Weather Forecasts (ECMWF)",
+          "Global Forecast System (GFS)",
+          "Hurricane Weather Research and Forecasting (HWRF) model",
+          "Tropical Tidbits"
+        ],
+        "topics": [
+          "hurricane tracking",
+          "weather forecasting",
+          "emergency preparedness",
+          "satellite imagery",
+          "flood mapping",
+          "mobile alerts",
+          "storm models"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "National Hurricane Center is the primary source for hurricane tracking and forecasting in the US",
+          "Storm Radar app provides real-time radar imagery and storm tracking on mobile devices",
+          "NOAA offers high-resolution satellite imagery from GOES satellites",
+          "FEMA Flood Map Service Center shows areas at risk of storm surge and flooding",
+          "Wireless Emergency Alerts deliver critical emergency information to mobile devices",
+          "Hurricane model data from sources like Tropical Tidbits provides forecast insights using various models"
+        ],
+        "structured_data": {
+          "category": "weather resources / emergency preparedness",
+          "difficulty_level": "beginner",
+          "content_type": "resource directory / documentation"
+        },
+        "analysis_timestamp": "2025-12-02T16:09:18.051905",
+        "parser_used": "deepseek"
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/hurricanes/data",
+      "domain": "www.usgs.gov",
+      "title": "Hurricanes - Data & Tools | U.S. Geological Survey",
+      "raw_html_length": 126225,
+      "clean_text_preview": "Hurricanes - Data & Tools | U.S. Geological Survey Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you\u2019ve safely connected to the .gov website. Share sensitive information only on official, secure websites. U.S. Geological Survey Science Science Explorer Biology C",
+      "analysis": {
+        "summary": "This is the U.S. Geological Survey's main landing page for hurricane-related data and tools. It provides navigation to various USGS science programs, products, and organizational information, but the specific hurricane data content is not detailed in the provided text.",
+        "entities": [
+          "U.S. Geological Survey",
+          "United States government"
+        ],
+        "topics": [
+          "Hurricanes",
+          "Data",
+          "Tools",
+          "Government Science",
+          "Natural Hazards"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Page is part of the U.S. Geological Survey's official website.",
+          "Focuses on hurricanes within the context of data and tools.",
+          "Provides extensive navigation to USGS science programs, mission areas, products (Data, Maps, Publications, Web Tools), and organizational information."
+        ],
+        "structured_data": {
+          "category": "Government Science / Natural Hazards",
+          "difficulty_level": "beginner",
+          "content_type": "documentation/portal"
+        },
+        "analysis_timestamp": "2025-12-02T16:09:29.932967",
+        "parser_used": "deepseek"
+      },
+      "rank": 5
+    }
+  ]
+}

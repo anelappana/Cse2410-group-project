@@ -1,0 +1,33 @@
+[
+  {
+    "matched_keywords": [],
+    "links_found": [
+      "http://quotes.toscrape.com/",
+      "http://quotes.toscrape.com/login",
+      "http://quotes.toscrape.com/js/page/2/"
+    ],
+    "lead": "Login Quotes by: GoodReads.com Made with   by Zyte",
+    "depth": 1,
+    "crawl_time": "2025-11-29T19:50:57.103178",
+    "loading_time": 3.057770013809204,
+    "canonical_url": "http://quotes.toscrape.com/js/",
+    "source_domain": "quotes.toscrape.com",
+    "published_date": "",
+    "author": "",
+    "quotes": [],
+    "word_count": 8,
+    "forecast_positions": "",
+    "ai_summary": "",
+    "ai_entities": [],
+    "ai_topics": [],
+    "ai_sentiment": "neutral",
+    "ai_key_points": [],
+    "ai_structured_data": {},
+    "ai_analysis_timestamp": "",
+    "ai_keywords": [],
+    "enhanced_keywords": [],
+    "url": "http://quotes.toscrape.com/js/",
+    "title": "",
+    "content": "Login Quotes by: GoodReads.com Made with   by Zyte"
+  }
+]

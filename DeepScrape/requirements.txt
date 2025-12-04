@@ -1,8 +1,0 @@
-beautifulsoup4
-lxml
-httpx
-pydantic
-python-dotenv
-pandas
-pyarrow
-playwright

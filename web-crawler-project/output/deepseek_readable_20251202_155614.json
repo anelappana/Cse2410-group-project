@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://example.com",
+    "domain": "example.com",
+    "title": "Example Domain",
+    "raw_html_length": 513,
+    "clean_text_preview": "Example Domain Example Domain This domain is for use in documentation examples without needing permission. Avoid use in operations. Learn more",
+    "analysis": {
+      "summary": "Example Domain Example Domain This domain is for use in documentation examples without needing permission",
+      "entities": [
+        "Example",
+        "Domain",
+        "Learn",
+        "Avoid",
+        "This"
+      ],
+      "topics": [],
+      "sentiment": "neutral",
+      "key_points": [],
+      "structured_data": {
+        "word_count": 21,
+        "content_type": "webpage",
+        "parser_used": "fallback"
+      },
+      "analysis_timestamp": "2025-12-02T15:56:14.171717",
+      "parser_used": "fallback"
+    }
+  }
+]

@@ -1,0 +1,183 @@
+{
+  "topic": "Michelle Vitt-Baker",
+  "search_engine": "duckduckgo_html",
+  "result_count": 5,
+  "timestamp": "20251202_172024",
+  "results": [
+    {
+      "url": "https://flcourts18.org/michelle-vitt-baker-biography/",
+      "domain": "flcourts18.org",
+      "title": "Biography: Baker, Michelle Vitt \u2013 Eighteenth Judicial Circuit Courts",
+      "raw_html_length": 289978,
+      "clean_text_preview": "Biography: Baker, Michelle Vitt \u2013 Eighteenth Judicial Circuit Courts Chief Judge Crawford has authorized the cancellation of all court proceedings in Seminole and Brevard Counties effective Noon, Tuesday, October 8, 2024, through Thursday, October 10, 2024. A decision will be made Thursday regarding Friday proceedings.Stay informed by following us on Facebook or X (Twitter) . You may also call (321) 637-5700 in Brevard or (407) 665-4945 in Seminole. \u2715 Skip to content Home Resources Self-Help Jud",
+      "analysis": {
+        "summary": "This webpage serves as the official biography page for Judge Michelle Vitt-Baker of the Eighteenth Judicial Circuit Courts in Florida. It primarily provides her contact information, location, and details about scheduling hearings within the court system. The page also contains a prominent notice about court closures due to weather and general information about employment opportunities and court operations.",
+        "entities": [
+          "Michelle Vitt-Baker",
+          "Eighteenth Judicial Circuit Courts",
+          "Chief Judge Crawford",
+          "Brevard County",
+          "Seminole County",
+          "Titusville Courthouse",
+          "Lisa Walters",
+          "Florida State Courts System",
+          "JACs (Judicial Automatic Calendar System)"
+        ],
+        "topics": [
+          "Judicial Biography",
+          "Court Administration",
+          "Hearing Scheduling",
+          "Employment Opportunities",
+          "Court Closures/Announcements",
+          "Contact Information"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Judge Michelle Vitt-Baker serves in Division 1 - Civil for Brevard County at the Titusville Courthouse.",
+          "Her Judicial Assistant is Lisa Walters, with provided phone number and email.",
+          "All court proceedings in Seminole and Brevard Counties are canceled from noon on October 8, 2024, through October 10, 2024.",
+          "The Eighteenth Judicial Circuit uses the JACs online system for attorneys to schedule hearings.",
+          "The court provides employment opportunities and is an Equal Opportunity Employer.",
+          "Business hours and contact information for Brevard and Seminole Court Administration are listed."
+        ],
+        "structured_data": {
+          "category": "Government & Law",
+          "difficulty_level": "beginner",
+          "content_type": "documentation"
+        },
+        "analysis_timestamp": "2025-12-02T17:19:55.072811",
+        "parser_used": "deepseek"
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://trellis.law/judge/michelle.vitt.baker",
+      "domain": "trellis.law",
+      "title": "Judge Michelle Vitt Baker - Professional Background & Legal Expertise | Trellis.Law",
+      "raw_html_length": 2157584,
+      "clean_text_preview": "Judge Michelle Vitt Baker - Professional Background & Legal Expertise | Trellis.Law skip to main content skip to footer Why Trellis? Overview Our Customers Features Overview API Corporate Litigation Insights Daily Filings Reports Judge Analytics Law Firm Litigation Insights Trellis AI Solutions Law Firms In-House Legal Associates Partners Knowledge Management Marketing / Business Development Pricing Coverage Federal Coverage Supreme Court Federal Circuits Federal Bankruptcy Courts State Coverage",
+      "analysis": {
+        "summary": "The content appears to be a webpage from Trellis.Law focused on Judge Michelle Vitt Baker, providing her professional background and legal expertise. The page also contains extensive navigation elements listing various legal jurisdictions, courts, and counties covered by the Trellis.Law platform.",
+        "entities": [
+          "Judge Michelle Vitt Baker",
+          "Trellis.Law"
+        ],
+        "topics": [
+          "Legal Expertise",
+          "Judicial Background",
+          "Court Coverage",
+          "Legal Analytics"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Profile page for Judge Michelle Vitt Baker",
+          "Platform covers federal and state court systems",
+          "Includes extensive county-level coverage across multiple states"
+        ],
+        "structured_data": {
+          "category": "Legal Professional Profile",
+          "difficulty_level": "intermediate",
+          "content_type": "professional profile/documentation"
+        },
+        "analysis_timestamp": "2025-12-02T17:20:02.738345",
+        "parser_used": "deepseek"
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://www.facebook.com/flcourts18/posts/judge-baker-administers-oath-of-office-at-the-historic-titusville-courthousebrev/4018986088140773/",
+      "rank": 3,
+      "error": "400 Client Error: Bad Request for url: https://www.facebook.com/flcourts18/posts/judge-baker-administers-oath-of-office-at-the-historic-titusville-courthousebrev/4018986088140773/",
+      "analysis": {
+        "summary": "",
+        "parser_used": "none"
+      }
+    },
+    {
+      "url": "https://www.floridabar.org/directories/find-mbr/profile/?num=796328",
+      "domain": "www.floridabar.org",
+      "title": "Find a Florida Bar Lawyer",
+      "raw_html_length": 157013,
+      "clean_text_preview": "Find a Florida Bar Lawyer The Florida Bar Rules, Ethics & Professionalism About The Bar + - About The Bar Home Frequently Asked Questions President\u2019s Welcome The Florida Bar Board of Governors Committees Sections / Divisions Board Certification Florida Registered Paralegals Strategic Plan / Research Leadership Academy Contact Us Bar Employment Rules, Ethics & Professionalism News & Events + - News & Events Home News Releases Florida Bar News Florida Bar Journal Social Media Meetings & Convention",
+      "analysis": {
+        "summary": "This is a Florida Bar website page for finding lawyers, featuring a lawyer directory search interface with filtering options by board certifications and practice areas. The page provides navigation to various sections of the Florida Bar website including public resources, member benefits, and professional information.",
+        "entities": [
+          "The Florida Bar",
+          "Florida Bar Board of Governors",
+          "Florida Registered Paralegals",
+          "Lawyer Referral Service",
+          "Clients\u2019 Security Fund",
+          "Florida Lawyers Assistance"
+        ],
+        "topics": [
+          "lawyer directory",
+          "legal professional search",
+          "bar association resources",
+          "board certifications",
+          "legal practice areas",
+          "professional ethics"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Provides lawyer search functionality with filtering options",
+          "Lists board certification specialties in various legal fields",
+          "Includes extensive practice area categories for lawyer search",
+          "Offers navigation to Florida Bar resources for public and members",
+          "Contains options for pro bono services and lawyer referral"
+        ],
+        "structured_data": {
+          "category": "professional directory",
+          "difficulty_level": "beginner",
+          "content_type": "directory/search interface"
+        },
+        "analysis_timestamp": "2025-12-02T17:20:13.401271",
+        "parser_used": "deepseek"
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://www.ballotready.org/people/michelle-vitt-baker",
+      "domain": "www.ballotready.org",
+      "title": "Michelle Vitt Baker | BallotReady",
+      "raw_html_length": 70834,
+      "clean_text_preview": "Michelle Vitt Baker | BallotReady For Organizations About Contact Support our work Office Holder/ Candidate Profile Michelle Vitt Baker Currently holds the office of Brevard County Court Judge - Group 3 until January 5, 2027 . Candidate for Brevard County Court Judge - Group 3 in 2020 Florida General Election . Share View your personalized ballot , check your voter registration , make a plan to vote , and research every name and measure on the ballot with BallotReady. Get Started Verified Webpag",
+      "analysis": {
+        "summary": "This is a BallotReady profile page for Michelle Vitt Baker, a Brevard County Court Judge in Florida. The page provides her professional background, education, and election information, including her current term and recent candidacy.",
+        "entities": [
+          "Michelle Vitt Baker",
+          "BallotReady",
+          "Brevard County Court",
+          "Law Offices of Michelle A Baker",
+          "Cianfrogna, Telfer, Reda, Faherty & Anderson P.A.",
+          "Stetson University",
+          "University of Central Florida",
+          "Brevard Community College",
+          "Florida"
+        ],
+        "topics": [
+          "election information",
+          "judicial candidate profile",
+          "professional experience",
+          "education background",
+          "voter resources"
+        ],
+        "sentiment": "neutral",
+        "key_points": [
+          "Michelle Vitt Baker currently holds the office of Brevard County Court Judge - Group 3 until January 5, 2027.",
+          "She was a candidate for Brevard County Court Judge - Group 3 in the 2020 Florida General Election.",
+          "Her professional experience includes serving as Judge - Division 3 since 2009, owning her own law firm from 2001-2008, and working as an associate from 1989-2000.",
+          "She holds a JD from Stetson University, a Bachelor's from University of Central Florida, and an Associate's from Brevard Community College.",
+          "The page promotes BallotReady's services for voters to research candidates and make voting plans."
+        ],
+        "structured_data": {
+          "category": "political/civic information",
+          "difficulty_level": "beginner",
+          "content_type": "profile/documentation"
+        },
+        "analysis_timestamp": "2025-12-02T17:20:24.998925",
+        "parser_used": "deepseek"
+      },
+      "rank": 5
+    }
+  ]
+}

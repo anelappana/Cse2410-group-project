@@ -1,0 +1,8 @@
+Scrapy==2.11.1
+pandas==2.2.2
+jsonschema==4.22.0
+beautifulsoup4==4.12.3
+lxml==5.2.1
+openai>=1.0.0
+requests>=2.31.0
+scrapy-playwright==0.0.33
